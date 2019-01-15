@@ -1,3 +1,7 @@
+Student.destroy_all
+Duck.destroy_all
+
+
 10.times do
   Student.create(name: Faker::Name.name, mod: rand(1..5))
 end
